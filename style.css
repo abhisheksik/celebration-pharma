@@ -1,23 +1,29 @@
 html, body {
-    height: 100%; /* Ensure html and body take up full viewport height */
-    margin: 0; /* Remove default body margin */
-    overflow: hidden; /* Prevent scrollbars if content overflows */
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  background-image: url('https://raw.githubusercontent.com/abhisheksik/celebration-pharma/main/Novartis%20background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-body {
-    background-image: url('your-image.jpg'); /* Replace 'your-image.jpg' with your image path */
-    background-size: cover; /* Scale the image to cover the entire container */
-    background-position: center center; /* Center the image horizontally and vertically */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-attachment: fixed; /* Keep the background fixed during scrolling (if you add content) */
+h1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 50px;
 }
 
-background-image: url('https://example.com/novartis-bg.jpg');
-
-
-/* Optional: Style for content on top of the image */
-h1, p {
-    color: white; /* Example: Change text color for better contrast */
-    text-align: center;
-    padding: 20px;
+p {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 8px;
 }
