@@ -12,6 +12,9 @@ body {
     background-attachment: fixed; /* Keep the background fixed during scrolling (if you add content) */
 }
 
+background-image: url('https://example.com/novartis-bg.jpg');
+
+
 /* Optional: Style for content on top of the image */
 h1, p {
     color: white; /* Example: Change text color for better contrast */
