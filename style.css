@@ -12,18 +12,40 @@ html, body {
   background-attachment: fixed;
 }
 
+/* ---- HEADER ---- */
 h1 {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  background-color: rgba(0, 32, 91, 0.8); /* Deep Novartis navy tone */
   display: inline-block;
-  padding: 10px 20px;
+  padding: 14px 30px;
   border-radius: 10px;
   margin-top: 50px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
+/* ---- PARAGRAPH ---- */
 p {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 32, 91, 0.6); /* Softer navy overlay for contrast */
   display: inline-block;
-  padding: 8px 16px;
+  padding: 10px 20px;
   border-radius: 8px;
+  margin-top: 10px;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* ---- RESPONSIVE TEXT ---- */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+    padding: 10px 20px;
+  }
+
+  p {
+    font-size: 1em;
+    padding: 8px 16px;
+  }
 }
